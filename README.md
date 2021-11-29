@@ -1,0 +1,3 @@
+- Code taken from https://www.sohamkamani.com/blog/2016/09/21/making-a-telegram-bot/
+- Since my interest for now is just to automatically send messages to my bot, the thing that most mattered to me is this:
+    - `curl -d '{"chat_id":"<chat_id taken using Telegram Bot Raw>", "text":"<whatever you want>"}' -H "Content-Type: application/json" -X POST https://api.telegram.org/bot<your bot API token generated when creating your bot with BotFather>/sendMessage`
